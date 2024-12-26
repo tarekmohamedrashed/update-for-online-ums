@@ -1,0 +1,140 @@
+body {
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", serif;
+
+}
+.login-container{
+    background: linear-gradient(to right,rgba(254, 175, 0, 1),rgb(192, 160, 0,4));
+}
+.login-h3 ::before{
+content: "";
+display: inline-block;
+width: 3px;
+height: 35px;
+background-color: #f8d442;
+margin-right: 10px;
+}
+.sidebarContainer{
+    background-color: bisque;
+    
+}
+.sidebarContainer img {
+    width: 75%;
+}
+.sidebarContainer .ps-sidebar-container .ps-menu-button:hover{
+    background-color: rgba(239, 155,40, 0.3);
+}
+
+
+
+.dashboard .wrapper-body {
+    width: calc(100% - 80px);
+    min-width: calc(100% - 80px);
+    height: 100vh;
+
+}
+.dashboard.open .wrapper-body {
+    width: calc(100% - 250px);
+    min-width: calc(100% - 250px);
+}
+@media (width < 768px) {
+    .sidebarContainer{
+        width: 150px;
+    }
+    .sidebarContainer img {
+        width: 50%;
+    }
+    .css-1wvake5 {
+        width: 150px !important;
+        min-width: 150px !important;
+    }
+    .dashboard.open .wrapper-body {
+        width: calc(100% - 150px);
+        min-width: calc(100% - 150px);
+    }
+}
+@media (width < 570px) {
+    .sidebarContainer{
+        width: 140px;
+    }
+    .sidebarContainer img {
+        width: 35%;
+    }
+    .css-1wvake5 {
+        width: 140px !important;
+        min-width: 140px !important;
+    }
+    .dashboard.open .wrapper-body {
+        width: calc(100% - 140px);
+        min-width: calc(100% - 140px);
+    }
+
+    .user-list .top-section h4 {
+        font-size: 18px;
+    }
+    .user-list .top-section button {
+        font-size: 16px;
+    }
+}
+@media (width < 500px) {
+    .sidebarContainer{
+        width: 120px;
+    }
+    .sidebarContainer img {
+        width: 25%;
+    }
+    .css-1wvake5 {
+        width: 120px !important;
+        min-width: 120px !important;
+    }
+    .dashboard.open .wrapper-body {
+        width: calc(100% - 120px);
+        min-width: calc(100% - 120px);
+    }
+
+    .user-list .top-section h4 {
+        font-size: 16px;
+    }
+    .user-list .top-section button {
+        font-size: 14px;
+    }
+}
+@media (width < 400px) {
+    .sidebarContainer{
+        width: 80px;
+    }
+    .sidebarContainer img {
+        width: 75%;
+    }
+    .css-1wvake5 {
+        width: 80px !important;
+        min-width: 80px !important;
+    }
+    .dashboard.open .wrapper-body {
+        width: calc(100% - 80px);
+        min-width: calc(100% - 80px);
+    }
+
+    .user-list .top-section h4 {
+        font-size: 15px;
+    }
+    .user-list .top-section button {
+        font-size: 13px;
+    }
+}
+
+
+.responsive-table{
+    overflow-x: auto;
+}
+td, th {
+    text-align: center;
+    vertical-align: middle;
+}
+td {
+    white-space: nowrap;
+}
+
