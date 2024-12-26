@@ -100,7 +100,6 @@ export default function Login(): JSX.Element {
     try {
       // إرسال طلب تسجيل الدخول
       const response = await axios.post('https://dummyjson.com/auth/login', data);
-      console.log(response?.data?.accessToken)
       //Token لل  set  وعملت  Backendاللي جايلي من ال  accessToken بتاعي اللي هو  Token شيلي ال "userToken" ناجح خلي ال  login وال  login ان انا عملت  log كده بقوله بعد ما اتأكد من ال 
       localStorage.setItem("userToken",response?.data?.accessToken);
       // عشان يحفظلي البيانات جواه localStorage بعد ال  coll ال  function  كده انا عمل لل
