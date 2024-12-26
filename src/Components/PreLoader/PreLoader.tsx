@@ -1,11 +1,11 @@
-// import { RotatingLines } from 'react-loader-spinner'
+import { RotatingLines } from 'react-loader-spinner'
 
 export default function PreLoader() {
   
+  
   return (
     <div className='d-flex justify-content-center align-content-center '>
-      Loading.........
-      {/* <RotatingLines 
+       <RotatingLines 
         visible={true}
         height="96"
         width="96"
@@ -15,7 +15,7 @@ export default function PreLoader() {
         ariaLabel="rotating-lines-loading"
         wrapperStyle={{}}
         wrapperClass=""
-      /> */}
+      /> 
     </div>
   )
 }
