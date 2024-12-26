@@ -1,5 +1,4 @@
 // Import React and necessary libraries
-import React from "react";
 import { Container, Row, Col, Button } from "react-bootstrap";
 
 // Home Component
